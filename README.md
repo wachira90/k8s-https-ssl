@@ -25,7 +25,7 @@ The following sections describe how to create your certs using the HTTP Method.
 
 The Admin pod is just a Debian image with `certbot` and `kubectl` pre-installed.
 If you trust my work,
-you can go ahead and use the public Docker Hub image I have published at `nabsul/k8s-admin:v002`.
+you can go ahead and use the public Docker Hub image I have published at `docker.io/wachiradu/letencrypt:v1`.
 But to be honest, you really shouldn't trust Docker images from strangers.
 For this reason, I personally recommend building the admin image yourself:
 
