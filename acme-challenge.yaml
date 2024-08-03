@@ -21,7 +21,7 @@ metadata:
     app: acme-challenge
 spec:
   containers:
-  - image: nginx
+  - image: public.ecr.aws/nginx/nginx:1.27.0
     name: nginx
     ports:
       - containerPort: 80
