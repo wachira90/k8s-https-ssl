@@ -38,5 +38,5 @@ metadata:
 spec:
   serviceAccountName: k8s-admin
   containers:
-  - image: nabsul/k8s-admin:v003
+  - image: docker.io/wachiradu/letencrypt:v1
     name: kube
