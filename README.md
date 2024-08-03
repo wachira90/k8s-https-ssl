@@ -1,4 +1,4 @@
-# Let's Encrypt for Kubernetes: The "Hard" Way
+# Let's Encrypt for Kubernetes
 
 This repo shows you how to manage Let's Encrypt certificates in your Kubernetes cluster without the use of automation.
 Normally, you should be fine using something like [cert-manager](https://cert-manager.io/docs/) or [Traefik](https://traefik.io)
